@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ToDo アプリ</title>
+    <!--<link rel="stylesheet" href="style.css" />-->
+    <script src="https://unpkg.com/vue@3.2.36/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <my-title :name="authorName"></my-title>
+    </div>
+    <script type="text/x-template" id="title-template">
+      <p>{{ upperCaseName }}</p>
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
